@@ -2,10 +2,6 @@ html {
   font-family: Merriweather, serif;
 }
 
-.skip-links:focus {
-  outline: 3px solid #000;
-}
-
 .color-brand {
   color: #568c36;
 }
@@ -16,10 +12,13 @@ html {
 
 a {
   color: #568c36;
-  text-decoration: none;
 }
 
 a:hover {
+  color: #113c00;
+}
+
+.link-dark {
   color: #113c00;
 }
 
@@ -29,18 +28,19 @@ a:hover {
   color: #fff;
 }
 
-.nav:focus {
+.nav {
   position: relative;
   background-color: #113c00;
   z-index: 2;
 }
 
-.nav a:focus {
+.nav a {
   color: #fff;
   text-decoration: none;
 }
 
-.nav a:hover:focus {
+.nav a:hover,
+.nav a:focus {
   background-color: #fff;
   color: #113c00;
 }
@@ -86,10 +86,6 @@ td {
 .footer {
   background-color: #113c00;
   color: #fff;
-}
-
-.embed-item {
-  background-color: #568c36;
 }
 
 @media only screen and (min-width: 35em) {
