@@ -2,6 +2,10 @@ html {
   font-family: Merriweather, serif;
 }
 
+.skip-links:focus {
+  outline: 3px solid #000;
+}
+
 .color-brand {
   color: #568c36;
 }
@@ -82,6 +86,10 @@ td {
 .footer {
   background-color: #113c00;
   color: #fff;
+}
+
+.embed-item {
+  background-color: #568c36;
 }
 
 @media only screen and (min-width: 35em) {
